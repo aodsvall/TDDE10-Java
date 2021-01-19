@@ -2,11 +2,11 @@
 public abstract class Animal {
 
 	String name;
-	int age;
+	int birthyear;
 
-	Animal(String name, int age) {
+	Animal(String name, int birthyear) {
 		this.name = name;
-		this.age = age;
+		this.birthyear = birthyear;
 
 	}
 

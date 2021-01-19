@@ -3,22 +3,22 @@ class Butterfly extends Animal {
 	
 	
 	
-	Butterfly(String name, int age) {
-		super(name, age);
+	Butterfly(String name, int birthyear) {
+		super(name, birthyear);
 	}
 
 	public void introduceYourself() {
 		System.out.println("Jag är en fjäril som heter " + this.name);
-		System.out.println("Jag är " + this.age + " år gammal");
-		
+		System.out.println("Jag är " + (2021 - this.birthyear) + " år gammal");		
 	}
 
 	public void makeSound() {
+		System.out.print(this.name + " säger. ");
 		System.out.println("");
 	}
 
 	public void fly() {
-		
+		System.out.println("Jag kan flyga, flax flax!!");
 	}
 
 }
